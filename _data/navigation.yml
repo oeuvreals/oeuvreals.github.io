@@ -1,0 +1,12 @@
+# 상단 네비게이션 바 메뉴
+main:
+  - title: "About"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "Music"
+    url: /music/
+  - title: "Poker"
+    url: /poker/
