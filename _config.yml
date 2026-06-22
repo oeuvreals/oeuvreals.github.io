@@ -41,6 +41,10 @@ paginate: 5
 paginate_path: /page:num/
 timezone: Asia/Seoul
 
+# _pages 폴더를 빌드에 포함 (없으면 하위 페이지가 안 만들어짐)
+include:
+  - _pages
+
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
