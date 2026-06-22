@@ -1,10 +1,6 @@
 # oeuvreals.github.io
 
-개인 웹사이트 — 포트폴리오 · 개인적인 글 · 음악 · 포커 공부 노트.
-
-- 주소: https://oeuvreals.github.io
-- 테마: [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) (remote_theme, dark skin)
-- 빌드: GitHub Pages 자동 빌드
+https://oeuvreals.github.io
 
 ## 콘텐츠를 추가하는 법
 
