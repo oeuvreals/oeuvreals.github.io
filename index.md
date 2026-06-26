@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "oeuvreals"
+title: "JM"
 permalink: /
 author_profile: true
 header:
