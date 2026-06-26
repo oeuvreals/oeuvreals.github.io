@@ -1,73 +1,209 @@
 # ============================================================
 #  연도별 명반 목록 (Music 탭)
-#  - 화면에는 가장 위가 2026년, 가장 아래가 1986년으로 표시됩니다.
+#  - 화면에는 가장 위가 2026년, 가장 아래가 1983년으로 표시됩니다.
 #  - 한 연도가 한 줄(가로 스크롤)로 나옵니다.
 #
-#  앨범 추가하는 법:
-#   1) 앨범 커버 이미지를 assets/images/albums/ 폴더에 넣기
-#        예) assets/images/albums/ok-computer.jpg
-#   2) 아래에서 원하는 연도(year)를 찾아 albums: 밑에 항목 추가
-#        - cover: /assets/images/albums/ok-computer.jpg
-#          title: "OK Computer"
-#          artist: "Radiohead"
-#   3) 저장 → git add/commit/push 하면 사이트에 반영됩니다.
-#
-#  (cover만 필수, title/artist는 비워도 됩니다. 비우면 커버만 표시)
+#  앨범 추가/수정하는 법:
+#   1) (직접 커버를 쓰려면) 이미지를 assets/images/albums/ 에 넣고
+#      cover 를 /assets/images/albums/파일명.jpg 로 바꾸면 됩니다.
+#   2) 커버 URL(cover:)이 비어 있으면 남색 placeholder 타일로 보입니다.
+#   3) 저장 -> git add/commit/push 하면 사이트에 반영됩니다.
 # ============================================================
 
 - year: 2026
   albums:
-    - cover: /assets/images/albums/example.jpg
-      title: "(예시 앨범)"
-      artist: "(예시 아티스트)"
+    - cover: 
+      title: "Live Fast Die Skrt"
+      artist: "Bill Stax"
+    - cover: 
+      title: "MAINSTREAM"
+      artist: "Kid Milli, OKASHII"
 
 - year: 2025
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/fd/a3/13fda38d-fc63-ddc3-1cf2-c09251adc532/25UMGIM09489.rgb.jpg/600x600bb.jpg
+      title: "Hurry Up Tomorrow"
+      artist: "The Weeknd"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/c3/e0/2cc3e03a-65b3-c525-bccb-6d616f228571/cover_KM0021355_1.png/600x600bb.jpg
+      title: "NONG"
+      artist: "shinjihang"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/2b/93/9e2b93b7-43a9-e814-e0ae-c55a1b7e17d6/196873463513.jpg/600x600bb.jpg
+      title: "DON'T TAP THE GLASS"
+      artist: "Tyler, The Creator"
+    - cover: 
+      title: "Homixide Lifestyle 2"
+      artist: "Homixide Gang"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/0b/d3/b00bd346-7b14-da61-28b0-94d2ea03f58e/093624826873.jpg/600x600bb.jpg
+      title: "Baby"
+      artist: "Dijon"
 
 - year: 2024
-  albums: []
+  albums:
+    - cover: 
+      title: "GEORGE"
+      artist: "1300"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/e3/6c/8fe36c7a-d280-2d0e-8e67-4ee0fd4523cd/810090095448.png/600x600bb.jpg
+      title: "Imaginal Disk"
+      artist: "Magdalena Bay"
+    - cover: 
+      title: "Life's A Gamble"
+      artist: "Rich The Kid"
+    - cover: 
+      title: "King Of The Mischievous South Vol.2"
+      artist: "Denzel Curry"
+    - cover: 
+      title: "BRAT"
+      artist: "Charli xcx"
 
 - year: 2023
-  albums: []
+  albums:
+    - cover: 
+      title: "Drive Home"
+      artist: "Portraits Of Tracy"
+    - cover: 
+      title: "NOWITZKI"
+      artist: "Beenzino"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/45/9a/9b/459a9b03-22bc-be26-3b8b-1a98ac64eac6/ZT_Zip_COVER.jpg/600x600bb.jpg
+      title: "Zip"
+      artist: "Zion.T"
 
 - year: 2022
-  albums: []
+  albums:
+    - cover: 
+      title: "viceversa"
+      artist: "viceversa"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/77/f5/14/77f51484-6d0e-55a5-a538-bf1066080652/196922226595_Cover.jpg/600x600bb.jpg
+      title: "some hearts are for two"
+      artist: "Qim Isle"
 
 - year: 2021
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/a7/f9/cfa7f9be-2d62-89a4-19bf-26276ab39f16/21UMGIM64738.rgb.jpg/600x600bb.jpg
+      title: "Donda"
+      artist: "Kanye West"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/67/1b/84671b2c-f97f-5280-0b73-383bcc8e4f29/Parannoul_ToSeeTheNextPartOfTheDream_3000.jpg/600x600bb.jpg
+      title: "To See the Next Part of The Dream"
+      artist: "Parannoul"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/33/dc/c533dc8e-2baa-94f9-22be-e6e28945f932/075679754134.jpg/600x600bb.jpg
+      title: "An Evening With Silk Sonic"
+      artist: "Silk Sonic"
 
 - year: 2020
-  albums: []
+  albums:
+    - cover: 
+      title: "Circles"
+      artist: "Mac Miller"
+    - cover: 
+      title: "Detox"
+      artist: "Bill Stax"
+    - cover: 
+      title: "FREE THE BEAST"
+      artist: "Bfree"
+    - cover: 
+      title: "Whole Lotta Red"
+      artist: "Playboi Carti"
 
 - year: 2019
-  albums: []
+  albums:
+    - cover: 
+      title: "킁"
+      artist: "C JAMM"
+    - cover: 
+      title: "Apollo XXI"
+      artist: "Steve Lacy"
+    - cover: 
+      title: "FREE FROM HELL"
+      artist: "Bfree"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/13/27/6c13279a-399b-2631-3cb2-6233a91d7a53/19UMGIM78325.rgb.jpg/600x600bb.jpg
+      title: "Hollywood's Bleeding"
+      artist: "Post Malone"
 
 - year: 2018
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/ef/dd/81efddef-ecb3-bb5b-f82b-10cf0587002a/18UMGIM27193.rgb.jpg/600x600bb.jpg
+      title: "DAYTONA"
+      artist: "Pusha T"
+    - cover: 
+      title: "무너지기"
+      artist: "공중도둑"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/4d/80/0f4d80d8-8d87-75a9-46aa-83bab19b3204/5034644606743.jpg/600x600bb.jpg
+      title: "MacGyver"
+      artist: "Bfree"
+    - cover: 
+      title: "LANGUAGE"
+      artist: "XXX"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f8/92/62/f892628e-bfd5-2437-c1f5-0ebbd366de09/00602577303098.rgb.jpg/600x600bb.jpg
+      title: "ye"
+      artist: "Kanye West"
 
 - year: 2017
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/83/6b/40/836b4093-0e77-2121-21b7-42765bc1a9f1/80928575.jpg/600x600bb.jpg
+      title: "boy."
+      artist: "offonoff"
 
 - year: 2016
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/f2/5d/b7f25d91-4320-47c8-146a-6f84d5bc7e78/cover.jpg/600x600bb.jpg
+      title: "A Moon Shaped Pool"
+      artist: "Radiohead"
+    - cover: 
+      title: "JEFFERY"
+      artist: "Young Thug"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1e/3a/4b/1e3a4b1a-1cc7-0f3c-d578-410bd673484a/886446189055.jpg/600x600bb.jpg
+      title: "Cozy Tapes: Vol.1 Friends"
+      artist: "A$AP Mob"
+    - cover: 
+      title: "KYOMI"
+      artist: "XXX"
+    - cover: 
+      title: "녹색이념"
+      artist: "테이크원"
 
 - year: 2015
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/ee/f3/42/eef342b0-6024-1bb3-15db-426aa5ee1eb8/kw_1400.jpg/600x600bb.jpg
+      title: "The Epic"
+      artist: "Kamasi Washington"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/9b/4c/9f9b4cbc-5910-51fb-8486-adf3b89bc973/886444594837.jpg/600x600bb.jpg
+      title: "AT.LONG.LAST.A$AP"
+      artist: "A$AP Rocky"
+    - cover:
+      title: "The Anecdote"
+      artist: "E SENS"
 
 - year: 2014
-  albums: []
+  albums:
+    - cover: 
+      title: "장범준 1집"
+      artist: "장범준"
 
 - year: 2013
-  albums: []
+  albums:
+    - cover: 
+      title: "Yeezus"
+      artist: "Kanye West"
 
 - year: 2012
-  albums: []
+  albums:
+    - cover: 
+      title: "The Money Store"
+      artist: "Death Grips"
+    - cover:
+      title: "One of a Kind"
+      artist: "G-DRAGON"
+    - cover: 
+      title: "24:26"
+      artist: "Beenzino"
 
 - year: 2011
   albums: []
 
 - year: 2010
-  albums: []
+  albums:
+    - cover: 
+      title: "Lifes Like"
+      artist: "재지팩트"
 
 - year: 2009
   albums: []
@@ -76,34 +212,70 @@
   albums: []
 
 - year: 2007
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/50/c7/dd50c790-99ac-d3d0-5ab8-e3891fb8fd52/634904032463.png/600x600bb.jpg
+      title: "In Rainbows"
+      artist: "Radiohead"
 
 - year: 2006
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/d3/c5/63d3c537-ac30-86e7-8e69-8a03a5346209/792.jpg/600x600bb.jpg
+      title: "Donuts"
+      artist: "J Dilla"
 
 - year: 2005
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/90/3c/0e903c43-9d81-f91b-90f1-727a58f7fb2c/00602498824030.rgb.jpg/600x600bb.jpg
+      title: "Late Registration"
+      artist: "Kanye West"
 
 - year: 2004
-  albums: []
+  albums:
+    - cover:
+      title: "The Unseen"
+      artist: "Quasimoto"
+    - cover:
+      title: "Madvillainy"
+      artist: "Madvillain"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/05/09/15050911-a2f1-9ebc-0d16-6e8faad1cf80/00602567924326.rgb.jpg/600x600bb.jpg
+      title: "The College Dropout"
+      artist: "Kanye West"
 
 - year: 2003
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fb/56/f7/fb56f7cb-967f-09f3-ebbe-311f84ea02e0/888003017191.jpg/600x600bb.jpg
+      title: "Vaudeville Villain"
+      artist: "Viktor Vaughn"
 
 - year: 2002
   albums: []
 
 - year: 2001
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/7f/bc/407fbccc-1361-4425-972b-0d60018a752f/mzi.vbkjoksk.jpg/600x600bb.jpg
+      title: "Drukqs"
+      artist: "Aphex Twin"
 
 - year: 2000
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/8e/13/bd8e1358-b367-a689-cb84-cebd0b067dc4/634904078263.png/600x600bb.jpg
+      title: "Kid A"
+      artist: "Radiohead"
 
 - year: 1999
-  albums: []
+  albums:
+    - cover:
+      title: "2001"
+      artist: "Dr. Dre"
 
 - year: 1998
-  albums: []
+  albums:
+    - cover: 
+      title: "Music Has The Right To Children"
+      artist: "Boards of Canada"
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/09/6b/55/096b55c4-ee8f-23bd-df8f-0ca0821f3028/886446727189.jpg/600x600bb.jpg
+      title: "The Miseducation of Lauryn Hill"
+      artist: "Ms. Lauryn Hill"
 
 - year: 1997
   albums: []
@@ -112,10 +284,16 @@
   albums: []
 
 - year: 1995
-  albums: []
+  albums:
+    - cover: 
+      title: "The Infamous"
+      artist: "Mobb Deep"
 
 - year: 1994
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/600x600bb.jpg
+      title: "Illmatic"
+      artist: "Nas"
 
 - year: 1993
   albums: []
@@ -124,19 +302,43 @@
   albums: []
 
 - year: 1991
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/6b/9a/866b9a0d-bcfb-0356-a539-a90036412f1b/cover_KM0021144_1.jpg/600x600bb.jpg
+      title: "김현식 Vol.6"
+      artist: "김현식"
 
 - year: 1990
   albums: []
 
 - year: 1989
-  albums: []
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/06/a5/5c06a5fc-6424-25e4-37c4-da5a9a18dd8a/00602547592378.rgb.jpg/600x600bb.jpg
+      title: "Rhythm Nation 1814"
+      artist: "Janet Jackson"
 
 - year: 1988
   albums: []
 
 - year: 1987
-  albums: []
+  albums:
+    - cover: 
+      title: "사랑하기 때문에"
+      artist: "유재하"
 
 - year: 1986
+  albums:
+    - cover: 
+      title: "김현식 III"
+      artist: "김현식"
+
+- year: 1985
   albums: []
+
+- year: 1984
+  albums: []
+
+- year: 1983
+  albums:
+    - cover: https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/99/3b/d1/993bd1fa-13ab-7898-6993-bc4da32be961/00724356364752.rgb.jpg/600x600bb.jpg
+      title: "Apollo"
+      artist: "Brian Eno"
