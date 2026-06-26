@@ -1,0 +1,142 @@
+# ============================================================
+#  연도별 명반 목록 (Music 탭)
+#  - 화면에는 가장 위가 2026년, 가장 아래가 1986년으로 표시됩니다.
+#  - 한 연도가 한 줄(가로 스크롤)로 나옵니다.
+#
+#  앨범 추가하는 법:
+#   1) 앨범 커버 이미지를 assets/images/albums/ 폴더에 넣기
+#        예) assets/images/albums/ok-computer.jpg
+#   2) 아래에서 원하는 연도(year)를 찾아 albums: 밑에 항목 추가
+#        - cover: /assets/images/albums/ok-computer.jpg
+#          title: "OK Computer"
+#          artist: "Radiohead"
+#   3) 저장 → git add/commit/push 하면 사이트에 반영됩니다.
+#
+#  (cover만 필수, title/artist는 비워도 됩니다. 비우면 커버만 표시)
+# ============================================================
+
+- year: 2026
+  albums:
+    - cover: /assets/images/albums/example.jpg
+      title: "(예시 앨범)"
+      artist: "(예시 아티스트)"
+
+- year: 2025
+  albums: []
+
+- year: 2024
+  albums: []
+
+- year: 2023
+  albums: []
+
+- year: 2022
+  albums: []
+
+- year: 2021
+  albums: []
+
+- year: 2020
+  albums: []
+
+- year: 2019
+  albums: []
+
+- year: 2018
+  albums: []
+
+- year: 2017
+  albums: []
+
+- year: 2016
+  albums: []
+
+- year: 2015
+  albums: []
+
+- year: 2014
+  albums: []
+
+- year: 2013
+  albums: []
+
+- year: 2012
+  albums: []
+
+- year: 2011
+  albums: []
+
+- year: 2010
+  albums: []
+
+- year: 2009
+  albums: []
+
+- year: 2008
+  albums: []
+
+- year: 2007
+  albums: []
+
+- year: 2006
+  albums: []
+
+- year: 2005
+  albums: []
+
+- year: 2004
+  albums: []
+
+- year: 2003
+  albums: []
+
+- year: 2002
+  albums: []
+
+- year: 2001
+  albums: []
+
+- year: 2000
+  albums: []
+
+- year: 1999
+  albums: []
+
+- year: 1998
+  albums: []
+
+- year: 1997
+  albums: []
+
+- year: 1996
+  albums: []
+
+- year: 1995
+  albums: []
+
+- year: 1994
+  albums: []
+
+- year: 1993
+  albums: []
+
+- year: 1992
+  albums: []
+
+- year: 1991
+  albums: []
+
+- year: 1990
+  albums: []
+
+- year: 1989
+  albums: []
+
+- year: 1988
+  albums: []
+
+- year: 1987
+  albums: []
+
+- year: 1986
+  albums: []

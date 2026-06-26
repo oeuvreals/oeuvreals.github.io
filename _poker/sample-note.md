@@ -1,16 +1,16 @@
 ---
-title: "샘플 — 포커 공부 노트"
-excerpt: "포커 섹션 사용 예시입니다."
+title: "Sample — Poker Study Note"
+excerpt: "An example of the poker section."
 date: 2026-06-22
 read_time: true
 ---
 
-포커를 공부하며 정리한 개념·핸드 리뷰·전략 메모를 적는 공간입니다.
+A space for concepts, hand reviews, and strategy notes I organize while studying poker.
 
-## 예시 항목
+## Example topics
 
-- 포지션의 중요성
-- 팟 오즈와 기대값
-- 핸드 리뷰
+- The importance of position
+- Pot odds and expected value
+- Hand reviews
 
-새 노트는 `_poker/` 폴더에 `.md` 파일을 추가하면 됩니다.
+To add a new note, create a `.md` file in the `_poker/` folder.

@@ -9,5 +9,4 @@ header:
   actions:
     - label: "Projects"
       url: /projects/
-excerpt: "포트폴리오 · 개인적인 글 · 음악 · 포커 공부 노트"
 ---
