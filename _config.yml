@@ -14,7 +14,7 @@ search: true   # 우상단 검색 활성화
 # ===== 작성자 프로필 (왼쪽 사이드바) =====
 author:
   name: "JM"
-  bio: "넓게 궁금해하고 깊게 파고드는 사람"
+  bio: ""
   # avatar: "/assets/images/bio-photo.jpg"   # 프로필 사진을 넣으면 이 줄의 # 를 지우세요
   links:
     - label: "GitHub"

@@ -1,5 +1,6 @@
-<!-- 전체 페이지를 다크 남색 톤으로 통일 -->
+<!-- 다크 남색 톤 통일 + 모던/가벼운 타이포 -->
 <style>
+  /* 전체 배경 통일 */
   body { background-color: #0f1b2e; }
   .masthead { background-color: #0f1b2e; border-bottom-color: #24395a; }
   .page__footer { background-color: #0b1422; }
@@ -8,4 +9,22 @@
   .page__footer a { color: #9aa6b8; }
   .archive__item-teaser { background-color: #16273f; }
   .toc, .toc .nav__title { background-color: #16273f; }
+
+  /* 글자 크기 전반 축소 */
+  html { font-size: 16px; }
+
+  /* Bold 제거 → 가벼운 굵기로 모던하게 */
+  h1, h2, h3, h4, h5, h6,
+  .page__title,
+  .archive__item-title,
+  .masthead .site-title,
+  .greedy-nav a {
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  strong, b { font-weight: 500; }
+
+  /* 히어로 배너 제목 / 부제 정돈 */
+  .page__hero--overlay .page__title { font-size: 2.2rem; font-weight: 400; }
+  .page__lead { font-weight: 300; font-size: 1.1rem; }
 </style>
