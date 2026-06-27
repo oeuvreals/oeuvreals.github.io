@@ -69,12 +69,12 @@
 
 - year: 2022
   albums:
-    - cover: /assets/images/albums/www.instagram.com_rollingloud_viceversartist.jpg
-      title: "www.instagram.com/rollingloud/viceversartist"
-      artist: "viceversa"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/77/f5/14/77f51484-6d0e-55a5-a538-bf1066080652/196922226595_Cover.jpg/600x600bb.jpg
       title: "some hearts are for two"
       artist: "Qim Isle"
+    - cover: /assets/images/albums/www.instagram.com_rollingloud_viceversartist.jpg
+      title: "www.instagram.com/rollingloud/viceversartist"
+      artist: "viceversa"
 
 - year: 2021
   albums:
