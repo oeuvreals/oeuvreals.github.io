@@ -144,6 +144,9 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/83/6b/40/836b4093-0e77-2121-21b7-42765bc1a9f1/80928575.jpg/600x600bb.jpg
       title: "boy."
       artist: "offonoff"
+    - cover: /assets/images/albums/Playboi_Carti.jpg
+      title: "Playboi Carti"
+      artist: "Playboi Carti"
 
 - year: 2016
   albums:
