@@ -102,6 +102,9 @@
     - cover: /assets/images/albums/Whole_Lotta_Red.png
       title: "Whole Lotta Red"
       artist: "Playboi Carti"
+    - cover: /assets/images/albums/Father_EP.jpg
+      title: "Father EP"
+      artist: "Masta Wu"
 
 - year: 2019
   albums:
@@ -216,6 +219,9 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/50/c7/dd50c790-99ac-d3d0-5ab8-e3891fb8fd52/634904032463.png/600x600bb.jpg
       title: "In Rainbows"
       artist: "Radiohead"
+    - cover:
+      title: "Mass Wu Pt.2"
+      artist: "Masta Wu"
 
 - year: 2006
   albums:
@@ -246,6 +252,9 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fb/56/f7/fb56f7cb-967f-09f3-ebbe-311f84ea02e0/888003017191.jpg/600x600bb.jpg
       title: "Vaudeville Villain"
       artist: "Viktor Vaughn"
+    - cover:
+      title: "1집 Masta Peace"
+      artist: "Masta Wu"
 
 - year: 2002
   albums: []

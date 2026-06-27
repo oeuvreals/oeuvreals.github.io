@@ -28,8 +28,14 @@ classes: wide
 }
 .music-row::-webkit-scrollbar { height: 6px; }
 .music-row::-webkit-scrollbar-thumb { background: #24395a; border-radius: 3px; }
-.album { flex: 0 0 auto; width: 150px; margin: 0; }
-.album__cover {
+.music-gallery .album {
+  flex: 0 0 auto;
+  width: 150px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.music-gallery .album__cover {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -37,14 +43,18 @@ classes: wide
   border-radius: 6px;
   display: block;
 }
-.album__title {
+.music-gallery .album__title {
   display: block;
   font-size: 0.78rem;
   color: #e6e9ef;
   margin-top: 0.4rem;
   line-height: 1.25;
 }
-.album__artist { display: block; font-size: 0.72rem; color: #8a96a8; }
+.music-gallery .album__artist {
+  display: block;
+  font-size: 0.72rem;
+  color: #8a96a8;
+}
 </style>
 
 <div class="music-gallery">
