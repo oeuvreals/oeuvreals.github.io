@@ -15,7 +15,7 @@
     - cover: /assets/images/albums/live-fast-die-skrt.jpg
       title: "LIVE FAST DIE SKRT"
       artist: "Bill Stax"
-    - cover: 
+    - cover: /assets/images/albums/MAINSTREAM.webp
       title: "MAINSTREAM"
       artist: "Kid Milli, OKASHII"
 
@@ -30,7 +30,7 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/2b/93/9e2b93b7-43a9-e814-e0ae-c55a1b7e17d6/196873463513.jpg/600x600bb.jpg
       title: "DON'T TAP THE GLASS"
       artist: "Tyler, The Creator"
-    - cover: 
+    - cover: /assets/images/albums/Homixide_Lifestyle_2.jpg
       title: "Homixide Lifestyle 2"
       artist: "Homixide Gang"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/0b/d3/b00bd346-7b14-da61-28b0-94d2ea03f58e/093624826873.jpg/600x600bb.jpg
@@ -39,28 +39,28 @@
 
 - year: 2024
   albums:
-    - cover: 
+    - cover: /assets/images/albums/GEORGE.jpg
       title: "GEORGE"
       artist: "1300"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/e3/6c/8fe36c7a-d280-2d0e-8e67-4ee0fd4523cd/810090095448.png/600x600bb.jpg
       title: "Imaginal Disk"
       artist: "Magdalena Bay"
-    - cover: 
+    - cover: /assets/images/albums/life's_a_gamble.jpg
       title: "Life's A Gamble"
       artist: "Rich The Kid"
-    - cover: 
+    - cover: /assets/images/albums/King_Of_The_Mischievous_South_Vol.2.jpg
       title: "King Of The Mischievous South Vol.2"
       artist: "Denzel Curry"
-    - cover: 
+    - cover: /assets/images/albums/BRAT.jpg
       title: "BRAT"
       artist: "Charli xcx"
 
 - year: 2023
   albums:
-    - cover: 
+    - cover: /assets/images/albums/Drive_Home.jpg
       title: "Drive Home"
       artist: "Portraits Of Tracy"
-    - cover: 
+    - cover: /assets/images/albums/NOWITZKI.jpg
       title: "NOWITZKI"
       artist: "Beenzino"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/45/9a/9b/459a9b03-22bc-be26-3b8b-1a98ac64eac6/ZT_Zip_COVER.jpg/600x600bb.jpg
@@ -69,8 +69,8 @@
 
 - year: 2022
   albums:
-    - cover: 
-      title: "viceversa"
+    - cover: /assets/images/albums/www.instagram.com_rollingloud_viceversartist.jpg
+      title: "www.instagram.com/rollingloud/viceversartist"
       artist: "viceversa"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/77/f5/14/77f51484-6d0e-55a5-a538-bf1066080652/196922226595_Cover.jpg/600x600bb.jpg
       title: "some hearts are for two"
@@ -90,28 +90,28 @@
 
 - year: 2020
   albums:
-    - cover: 
+    - cover: /assets/images/albums/circles.jpg
       title: "Circles"
       artist: "Mac Miller"
-    - cover: 
-      title: "Detox"
+    - cover: /assets/images/albums/DETOX.jpg
+      title: "DETOX"
       artist: "Bill Stax"
-    - cover: 
+    - cover: /assets/images/albums/FREE_THE_BEAST.jpg
       title: "FREE THE BEAST"
       artist: "Bfree"
-    - cover: 
+    - cover: /assets/images/albums/Whole_Lotta_Red.png
       title: "Whole Lotta Red"
       artist: "Playboi Carti"
 
 - year: 2019
   albums:
-    - cover: 
+    - cover: /assets/images/albums/킁.jpg
       title: "킁"
       artist: "C JAMM"
-    - cover: 
+    - cover: /assets/images/albums/Apollo_XXI.jpg
       title: "Apollo XXI"
       artist: "Steve Lacy"
-    - cover: 
+    - cover: /assets/images/albums/FREE_FROM_HELL.jpg
       title: "FREE FROM HELL"
       artist: "Bfree"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/13/27/6c13279a-399b-2631-3cb2-6233a91d7a53/19UMGIM78325.rgb.jpg/600x600bb.jpg
@@ -123,13 +123,13 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/ef/dd/81efddef-ecb3-bb5b-f82b-10cf0587002a/18UMGIM27193.rgb.jpg/600x600bb.jpg
       title: "DAYTONA"
       artist: "Pusha T"
-    - cover: 
+    - cover: /assets/images/albums/무너지기.jpg
       title: "무너지기"
       artist: "공중도둑"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/4d/80/0f4d80d8-8d87-75a9-46aa-83bab19b3204/5034644606743.jpg/600x600bb.jpg
       title: "MacGyver"
       artist: "Bfree"
-    - cover: 
+    - cover: /assets/images/albums/LANGUAGE.png
       title: "LANGUAGE"
       artist: "XXX"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f8/92/62/f892628e-bfd5-2437-c1f5-0ebbd366de09/00602577303098.rgb.jpg/600x600bb.jpg
@@ -147,16 +147,16 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/f2/5d/b7f25d91-4320-47c8-146a-6f84d5bc7e78/cover.jpg/600x600bb.jpg
       title: "A Moon Shaped Pool"
       artist: "Radiohead"
-    - cover: 
+    - cover: /assets/images/albums/JEFFERY.jpg
       title: "JEFFERY"
       artist: "Young Thug"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1e/3a/4b/1e3a4b1a-1cc7-0f3c-d578-410bd673484a/886446189055.jpg/600x600bb.jpg
       title: "Cozy Tapes: Vol.1 Friends"
       artist: "A$AP Mob"
-    - cover: 
+    - cover: /assets/images/albums/KYOMI.png
       title: "KYOMI"
       artist: "XXX"
-    - cover: 
+    - cover: /assets/images/albums/녹색이념.jpg
       title: "녹색이념"
       artist: "테이크원"
 
@@ -168,32 +168,32 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/9b/4c/9f9b4cbc-5910-51fb-8486-adf3b89bc973/886444594837.jpg/600x600bb.jpg
       title: "AT.LONG.LAST.A$AP"
       artist: "A$AP Rocky"
-    - cover:
+    - cover: /assets/images/albums/The_Anecdote.jpg
       title: "The Anecdote"
       artist: "E SENS"
 
 - year: 2014
   albums:
-    - cover: 
+    - cover: /assets/images/albums/장범준_1집.png
       title: "장범준 1집"
       artist: "장범준"
 
 - year: 2013
   albums:
-    - cover: 
+    - cover: /assets/images/albums/Yeezus.jpg
       title: "Yeezus"
       artist: "Kanye West"
 
 - year: 2012
   albums:
-    - cover: 
+    - cover: /assets/images/albums/The_Money_Store.jpg
       title: "The Money Store"
       artist: "Death Grips"
-    - cover:
+    - cover: /assets/images/albums/One_of_a_Kind.jpg
       title: "One of a Kind"
       artist: "G-DRAGON"
-    - cover: 
-      title: "24:26"
+    - cover: /assets/images/albums/24_26.jpg
+      title: "2 4 : 2 6"
       artist: "Beenzino"
 
 - year: 2011
@@ -201,7 +201,7 @@
 
 - year: 2010
   albums:
-    - cover: 
+    - cover: /assets/images/albums/Lifes_Like.jpg
       title: "Lifes Like"
       artist: "재지팩트"
 
@@ -231,10 +231,10 @@
 
 - year: 2004
   albums:
-    - cover:
+    - cover: /assets/images/albums/The_Unseen.jpg
       title: "The Unseen"
       artist: "Quasimoto"
-    - cover:
+    - cover: /assets/images/albums/Madvillainy.jpg
       title: "Madvillainy"
       artist: "Madvillain"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/05/09/15050911-a2f1-9ebc-0d16-6e8faad1cf80/00602567924326.rgb.jpg/600x600bb.jpg
@@ -264,13 +264,13 @@
 
 - year: 1999
   albums:
-    - cover:
+    - cover: /assets/images/albums/2001.png
       title: "2001"
       artist: "Dr. Dre"
 
 - year: 1998
   albums:
-    - cover: 
+    - cover: /assets/images/albums/music_has_the_right_to_children.jpg
       title: "Music Has The Right To Children"
       artist: "Boards of Canada"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/09/6b/55/096b55c4-ee8f-23bd-df8f-0ca0821f3028/886446727189.jpg/600x600bb.jpg
@@ -285,7 +285,7 @@
 
 - year: 1995
   albums:
-    - cover: 
+    - cover: /assets/images/albums/The_Infamous.jpg
       title: "The Infamous"
       artist: "Mobb Deep"
 
@@ -321,13 +321,13 @@
 
 - year: 1987
   albums:
-    - cover: 
+    - cover: /assets/images/albums/사랑하기_때문에.jpg
       title: "사랑하기 때문에"
       artist: "유재하"
 
 - year: 1986
   albums:
-    - cover: 
+    - cover: /assets/images/albums/김현식_III.jpg
       title: "김현식 III"
       artist: "김현식"
 
