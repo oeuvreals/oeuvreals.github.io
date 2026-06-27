@@ -45,15 +45,21 @@ classes: wide
 }
 .music-gallery .album__title {
   display: block;
+  width: 150px;
   font-size: 0.78rem;
   color: #e6e9ef;
   margin-top: 0.4rem;
   line-height: 1.25;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .music-gallery .album__artist {
   display: block;
+  width: 150px;
   font-size: 0.72rem;
   color: #8a96a8;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 </style>
 
