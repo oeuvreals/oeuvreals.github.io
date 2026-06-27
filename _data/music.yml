@@ -12,8 +12,8 @@
 
 - year: 2026
   albums:
-    - cover: 
-      title: "Live Fast Die Skrt"
+    - cover: /assets/images/albums/live-fast-die-skrt.jpg
+      title: "LIVE FAST DIE SKRT"
       artist: "Bill Stax"
     - cover: 
       title: "MAINSTREAM"
