@@ -132,9 +132,9 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/4d/80/0f4d80d8-8d87-75a9-46aa-83bab19b3204/5034644606743.jpg/600x600bb.jpg
       title: "MacGyver"
       artist: "B-FREE"
-    - cover: /assets/images/albums/LANGUAGE.png
-      title: "LANGUAGE"
-      artist: "XXX"
+    - cover: /assets/images/albums/AI,_THE_PLAYLIST.jpg
+      title: "AI, THE PLAYLIST"
+      artist: "Kid Milli"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f8/92/62/f892628e-bfd5-2437-c1f5-0ebbd366de09/00602577303098.rgb.jpg/600x600bb.jpg
       title: "ye"
       artist: "Kanye West"
@@ -201,6 +201,12 @@
     - cover: /assets/images/albums/24_26.jpg
       title: "2 4 : 2 6"
       artist: "Beenzino"
+    - cover: /assets/images/albums/channel_ORANGE.png
+      title: "channel ORANGE"
+      artist: "Frank Ocean"
+    - cover: /assets/images/albums/Primary_And_The_Messengers_LP.jpg
+      title: "Primary And The Messengers LP"
+      artist: "프라이머리"
 
 - year: 2011
   albums: []
