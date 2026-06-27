@@ -215,7 +215,10 @@
   albums: []
 
 - year: 2008
-  albums: []
+  albums:
+    - cover: /assets/images/albums/monologue.jpg
+      title: "Monologue"
+      artist: "김동률"
 
 - year: 2007
   albums:
@@ -293,19 +296,28 @@
   albums: []
 
 - year: 1996
-  albums: []
+  albums:
+    - cover: /assets/images/albums/Exhibition_2.jpg
+      title: "Exhibition 2"
+      artist: "전람회"
 
 - year: 1995
   albums:
     - cover: /assets/images/albums/The_Infamous.jpg
       title: "The Infamous"
       artist: "Mobb Deep"
+    - cover: /assets/images/albums/Mystic_Stylez.jpg
+      title: "Mystic Stylez"
+      artist: "Three 6 Mafia"
 
 - year: 1994
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/600x600bb.jpg
       title: "Illmatic"
       artist: "Nas"
+    - cover: /assets/images/albums/오래된_친구.jpg
+      title: "오래된 친구"
+      artist: "빛과 소금"
 
 - year: 1993
   albums: []
@@ -318,6 +330,9 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/6b/9a/866b9a0d-bcfb-0356-a539-a90036412f1b/cover_KM0021144_1.jpg/600x600bb.jpg
       title: "김현식 Vol.6"
       artist: "김현식"
+    - cover: /assets/images/albums/내곁에서_떠나가지_말아요.webp
+      title: "내곁에서 떠나가지 말아요"
+      artist: "빛과 소금"
 
 - year: 1990
   albums: []
@@ -327,9 +342,15 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/06/a5/5c06a5fc-6424-25e4-37c4-da5a9a18dd8a/00602547592378.rgb.jpg/600x600bb.jpg
       title: "Rhythm Nation 1814"
       artist: "Janet Jackson"
+    - cover: /assets/images/albums/Paul's_Boutique.webp
+      title: "Paul's Boutique"
+      artist: "Beastie Boys"
 
 - year: 1988
-  albums: []
+  albums:
+    - cover: /assets/images/albums/김현식_Vol.4.webp
+      title: "김현식 Vol.4"
+      artist: "김현식"
 
 - year: 1987
   albums:
@@ -354,3 +375,9 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/99/3b/d1/993bd1fa-13ab-7898-6993-bc4da32be961/00724356364752.rgb.jpg/600x600bb.jpg
       title: "Apollo"
       artist: "Brian Eno"
+
+- year: 1971
+  albums:
+    - cover: /assets/images/albums/Bryter_Layter.jpg
+      title: "Bryter Layter"
+      artist: "Nick Drake"
