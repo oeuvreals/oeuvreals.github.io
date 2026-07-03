@@ -1,7 +1,7 @@
 <!-- 다크 남색 톤 통일 + 모던/세련 타이포 & 크롬 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 
 <style>
   :root {
@@ -75,7 +75,12 @@
   strong, b { font-weight: 500; }
 
   /* ===== 히어로 배너 제목 / 부제 ===== */
-  .page__hero--overlay .page__title { font-size: 2.4rem; font-weight: 300; letter-spacing: 0.01em; }
+  .page__hero--overlay .page__title {
+    font-family: "Space Grotesk", "Inter", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 500;              /* 라이트(300)와 볼드(700)의 중간 */
+    letter-spacing: -0.02em;
+  }
   .page__lead { font-weight: 300; font-size: 1.1rem; }
   /* 히어로 버튼(Projects 등) 모던하게 */
   .page__hero--overlay .btn--light-outline {
