@@ -8,15 +8,25 @@ classes: wide
 
 <style>
 .music-gallery { margin-top: 0.5rem; }
-.music-year { margin-bottom: 1.75rem; }
+.music-year { margin-bottom: 2.25rem; }
 .music-year__label {
-  font-size: 0.9rem;
-  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  font-size: 0.72rem;
+  font-weight: 500;
   color: #6b7a90;
-  letter-spacing: 0.06em;
-  margin: 0 0 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin: 0 0 0.9rem;
   border: 0;
   padding: 0;
+}
+.music-year__label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #24395a, transparent);
 }
 .music-row {
   display: flex;
@@ -40,19 +50,27 @@ classes: wide
   height: 150px;
   object-fit: cover;
   background: #16273f;
-  border-radius: 6px;
+  border-radius: 8px;
   display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s ease;
+}
+.music-gallery .album:hover .album__cover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.45);
 }
 .music-gallery .album__title {
   display: block;
   width: 150px;
   font-size: 0.78rem;
   color: #e6e9ef;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
   line-height: 1.25;
   overflow-wrap: anywhere;
   word-break: break-word;
+  transition: color .18s ease;
 }
+.music-gallery .album:hover .album__title { color: #ffffff; }
 .music-gallery .album__artist {
   display: block;
   width: 150px;
