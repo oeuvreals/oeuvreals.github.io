@@ -153,7 +153,7 @@ classes: wide
 <input type="radio" name="music-view" id="view-gallery" class="mv-radio" checked>
 <input type="radio" name="music-view" id="view-playlist" class="mv-radio">
 <div class="music-tabbar">
-<label for="view-gallery">Album Gallery</label>
+<label for="view-gallery">Cornerstones</label>
 <label for="view-playlist">Monthly Playlist</label>
 </div>
 
