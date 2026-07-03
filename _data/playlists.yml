@@ -1,0 +1,18 @@
+# 월간 플레이리스트 데이터
+# - id: 화면 하위 탭 라벨(001, 002 ...). 문자열로 감싸기(따옴표).
+# - date: 만든 날짜(표기용, 그대로 출력됨).
+# - title: (선택) 플레이리스트 이름. 없으면 생략 가능.
+# - spotify: Spotify '공유 링크' 그대로 붙여넣기(embed 링크 아님). 없으면 임베드 생략.
+# - tracks: 곡 목록. cover 경로는 앨범 갤러리와 동일 규칙(로컬 /assets/... 또는 서비스 URL).
+
+- id: "001"
+  date: "2026-07-01"
+  title: "샘플 플레이리스트"
+  spotify: "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+  tracks:
+    - cover: /assets/images/albums/live-fast-die-skrt.jpg
+      title: "LIVE FAST DIE SKRT"
+      artist: "Bill Stax"
+    - cover: /assets/images/albums/MAINSTREAM.webp
+      title: "MAINSTREAM"
+      artist: "Kid Milli, OKASHII"
