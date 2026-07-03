@@ -1,0 +1,35 @@
+<aside class="sidebar">
+  <a href="{{ '/' | relative_url }}" class="sidebar__brand">
+    <div class="sidebar__brand-name">{{ site.author.name | default: site.name }}</div>
+    <div class="sidebar__brand-domain">{{ site.url | remove_first: "https://" | remove_first: "http://" }}</div>
+  </a>
+
+  <nav class="sidebar__nav">
+    {% for item in site.data.navigation.main %}
+    {% assign is_active = false %}
+    {% if item.url == "/" %}
+      {% if page.url == "/" or page.url == "/index.html" %}{% assign is_active = true %}{% endif %}
+    {% elsif item.url == "/projects/" and page.collection == "portfolio" %}
+      {% assign is_active = true %}
+    {% elsif item.url == "/poker/" and page.collection == "poker" %}
+      {% assign is_active = true %}
+    {% elsif item.url != "/" and page.url contains item.url %}
+      {% assign is_active = true %}
+    {% endif %}
+    <a href="{{ item.url | relative_url }}" class="sidebar__nav-item{% if is_active %} is-active{% endif %}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+
+  <div class="sidebar__foot">
+    {% if site.author.links %}
+    {% for link in site.author.links %}
+    {% if link.label == "GitHub" %}
+    <a href="{{ link.url }}" target="_blank" rel="noopener" class="sidebar__gh">
+      <span class="sidebar__gh-dot"></span> {{ link.url | remove_first: "https://" | remove_first: "http://" }}
+    </a>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <div class="sidebar__copyright">&copy; {{ 'now' | date: "%Y" }}</div>
+  </div>
+</aside>

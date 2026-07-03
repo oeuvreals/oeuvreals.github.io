@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="entry">
+  {% if page.back %}<a href="{{ page.back.url | relative_url }}" class="entry__back">&larr; {{ page.back.label }}</a>{% endif %}
+
+  <h1 class="entry__title">{{ page.title }}</h1>
+
+  <div class="entry__meta">
+    {% if page.date %}<span>{{ page.date | date: "%Y.%m.%d" }}</span>{% endif %}
+    {% if page.read_time %}
+    {% assign words = page.content | number_of_words %}
+    {% assign minutes = words | divided_by: 180 %}
+    <span>약 {{ minutes | at_least: 1 }}분 분량 읽기</span>
+    {% endif %}
+    {% if page.tags %}{% for tag in page.tags %}<span class="tag tag--muted">{{ tag }}</span>{% endfor %}{% endif %}
+  </div>
+
+  <div class="entry__content">
+    {{ content }}
+  </div>
+</article>

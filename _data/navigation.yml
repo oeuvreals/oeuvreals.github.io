@@ -1,6 +1,6 @@
-# 상단 네비게이션 바 메뉴
+# 왼쪽 사이드바 탭 메뉴
 main:
-  - title: "About"
+  - title: "Profile"
     url: /
   - title: "Projects"
     url: /projects/

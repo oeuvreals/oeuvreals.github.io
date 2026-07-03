@@ -1,6 +1,9 @@
 ---
 title: "SECOM 반도체 웨이퍼 불량 예측"
 excerpt: "극심한 불균형·약신호 센서 데이터에서 누수 없이 정직하게 불량을 예측하고 핵심 신호를 해석한 end-to-end ML 분석."
+tags:
+  - scikit-learn
+  - imbalanced data
 # header:
 #   teaser: /assets/images/secom-thumb.png   # 썸네일 이미지를 넣으면 이 줄들의 # 를 지우세요
 date: 2026-06-22

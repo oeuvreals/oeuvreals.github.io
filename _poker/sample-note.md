@@ -1,6 +1,7 @@
 ---
 title: "Sample — Poker Study Note"
 excerpt: "An example of the poker section."
+placeholder_label: "HAND HISTORY CHART"
 date: 2026-06-22
 read_time: true
 ---

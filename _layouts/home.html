@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="profile">
+  {% if page.avatar or site.author.avatar %}
+  <div class="profile__photo">
+    <img src="{{ page.avatar | default: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+  </div>
+  {% else %}
+  <div class="ph profile__photo">PROFILE PHOTO</div>
+  {% endif %}
+
+  <div class="profile__body">
+    {% if page.tag %}<span class="tag">{{ page.tag }}</span>{% endif %}
+    {% if site.author.bio and site.author.bio != "" %}
+    <p class="profile__bio">{{ site.author.bio }}</p>
+    {% endif %}
+    {{ content }}
+  </div>
+</section>

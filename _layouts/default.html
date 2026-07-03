@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'en' | replace: '_', '-' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+{% elsif site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+{% feed_meta %}
+</head>
+<body>
+
+<div class="site">
+  {% include sidebar.html %}
+  <main class="main">
+    <div class="page">
+      {{ content }}
+    </div>
+  </main>
+</div>
+
+</body>
+</html>

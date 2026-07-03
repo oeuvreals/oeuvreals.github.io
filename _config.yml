@@ -1,18 +1,13 @@
 # ===== 사이트 기본 정보 =====
 title: "oeuvreals"
-masthead_title: " "
 name: "JM"
 description: "JM Personal"
 url: "https://oeuvreals.github.io"
 locale: "ko-KR"
 
-# ===== 테마 (remote_theme: GitHub Pages가 자동 빌드) =====
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"   # default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+# ===== 테마: 커스텀 (자체 _layouts/_includes/assets 사용, 외부 theme 없음) =====
 
-search: true   # 우상단 검색 활성화
-
-# ===== 작성자 프로필 (왼쪽 사이드바) =====
+# ===== 작성자 프로필 =====
 author:
   name: "JM"
   bio: ""
@@ -28,13 +23,6 @@ author:
     #   icon: "fab fa-fw fa-linkedin"
     #   url: "https://www.linkedin.com/in/..."
 
-# 페이지 하단 footer 링크
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/oeuvreals"
-
 # ===== 빌드 설정 =====
 markdown: kramdown
 highlighter: rouge
@@ -47,7 +35,6 @@ include:
   - _pages
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-feed
   - jekyll-include-cache
@@ -72,41 +59,35 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
-      show_date: true
+      layout: entry
+      back: { label: "Blog", url: "/blog/" }
   # 일반 페이지
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: page
   # 포폴
   - scope:
       path: ""
       type: portfolio
     values:
-      layout: single
-      author_profile: false
-      share: true
+      layout: entry
+      back: { label: "Projects", url: "/projects/" }
   # 음악
   - scope:
       path: ""
       type: music
     values:
-      layout: single
-      author_profile: false
+      layout: entry
+      back: { label: "Music", url: "/music/" }
   # 포커
   - scope:
       path: ""
       type: poker
     values:
-      layout: single
-      author_profile: true
+      layout: entry
+      back: { label: "Poker", url: "/poker/" }
       read_time: true
 
 # 빌드에서 제외

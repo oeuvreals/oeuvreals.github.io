@@ -1,10 +1,6 @@
 ---
 title: "Poker"
 layout: archive
+collection: poker
 permalink: /poker/
-author_profile: true
 ---
-
-{% for post in site.poker %}
-  {% include archive-single.html %}
-{% endfor %}

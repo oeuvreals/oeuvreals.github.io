@@ -1,9 +1,7 @@
 ---
 title: "Music"
-layout: single
+layout: page
 permalink: /music/
-author_profile: false
-classes: wide
 ---
 
 <style>
@@ -15,25 +13,24 @@ classes: wide
   display: flex;
   gap: 0.25rem;
   overflow-x: auto;
-  border-bottom: 1px solid #24395a;
+  border-bottom: 1px solid var(--line);
 }
 .pl-tabbar { border-bottom: 0; margin-bottom: 0.4rem; }
 .music-tabbar label, .pl-tablabel {
   cursor: pointer;
   white-space: nowrap;
   padding: 0.45rem 0.95rem;
-  font-size: 0.9rem;
-  color: var(--text-dim);
+  font: 500 0.9rem var(--disp);
+  color: var(--fg-dim);
   border-bottom: 2px solid transparent;
   margin-bottom: -1px;
   transition: color .18s ease, border-color .18s ease;
 }
 .pl-tablabel {
-  font-family: "Space Grotesk", sans-serif;
   letter-spacing: 0.04em;
   font-size: 0.82rem;
 }
-.music-tabbar label:hover, .pl-tablabel:hover { color: var(--text); }
+.music-tabbar label:hover, .pl-tablabel:hover { color: var(--fg); }
 
 /* 패널 기본 숨김 */
 .mv-panel, .pl-panel { display: none; }
@@ -44,7 +41,7 @@ classes: wide
 #view-playlist:checked ~ #panel-playlist { display: block; }
 #view-gallery:checked  ~ .music-tabbar label[for="view-gallery"],
 #view-playlist:checked ~ .music-tabbar label[for="view-playlist"] {
-  color: var(--text);
+  color: var(--fg);
   border-bottom-color: var(--accent);
 }
 
@@ -53,18 +50,18 @@ classes: wide
 {% for pl in pls %}
 #pl-{{ pl.id }}:checked ~ #plp-{{ pl.id }} { display: block; }
 #pl-{{ pl.id }}:checked ~ .pl-tabbar label[for="pl-{{ pl.id }}"] {
-  color: var(--text);
+  color: var(--fg);
   border-bottom-color: var(--accent);
 }
 {% endfor %}
 
 /* 플레이리스트 헤더 / 임베드 / 트랙 */
 .pl-head { display: flex; align-items: baseline; gap: 0.8rem; margin: 0.4rem 0 1rem; flex-wrap: wrap; }
-.pl-date { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
-.pl-title { font-size: 1.05rem; color: var(--text); }
+.pl-date { font: 400 0.72rem var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--fg-dim); }
+.pl-title { font: 500 1.05rem var(--disp); color: var(--fg); }
 .pl-embed { border-radius: 12px; margin-bottom: 1.4rem; max-width: 560px; width: 100%; display: block; border: 0; }
 .pl-tracks { display: flex; flex-wrap: wrap; gap: 1rem; }
-.pl-empty { color: var(--text-dim); font-size: 0.9rem; }
+.pl-empty { color: var(--fg-dim); font-size: 0.9rem; }
 
 /* ===== 연도별 앨범 갤러리 ===== */
 .music-gallery { margin-top: 0.2rem; }
@@ -75,7 +72,7 @@ classes: wide
   gap: 0.9rem;
   font-size: 0.72rem;
   font-weight: 500;
-  color: #6b7a90;
+  color: var(--fg-dim);
   text-transform: uppercase;
   letter-spacing: 0.16em;
   margin: 0 0 0.9rem;
@@ -86,7 +83,7 @@ classes: wide
   content: "";
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, #24395a, transparent);
+  background: linear-gradient(90deg, var(--line), transparent);
 }
 .music-row {
   display: flex;
@@ -97,7 +94,7 @@ classes: wide
   min-height: 1rem;
 }
 .music-row::-webkit-scrollbar { height: 6px; }
-.music-row::-webkit-scrollbar-thumb { background: #24395a; border-radius: 3px; }
+.music-row::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
 
 /* ===== 앨범 카드 (갤러리 + 플레이리스트 트랙 공용) ===== */
 .music-gallery .album,
@@ -113,7 +110,7 @@ classes: wide
   width: 150px;
   height: 150px;
   object-fit: cover;
-  background: #16273f;
+  background: rgba(255,255,255,.04);
   border-radius: 8px;
   display: block;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
@@ -129,7 +126,7 @@ classes: wide
   display: block;
   width: 150px;
   font-size: 0.78rem;
-  color: #e6e9ef;
+  color: var(--fg);
   margin-top: 0.5rem;
   line-height: 1.25;
   overflow-wrap: anywhere;
@@ -143,7 +140,7 @@ classes: wide
   display: block;
   width: 150px;
   font-size: 0.72rem;
-  color: #8a96a8;
+  color: var(--fg-dim);
   overflow-wrap: anywhere;
   word-break: break-word;
 }
