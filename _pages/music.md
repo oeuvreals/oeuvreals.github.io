@@ -49,7 +49,7 @@ classes: wide
 }
 
 /* Level 2 (동적: 플레이리스트 id별 규칙 생성) */
-{% assign pls = site.data.playlists | sort: "id" | reverse %}
+{% assign pls = site.data.playlists | sort: "id" %}
 {% for pl in pls %}
 #pl-{{ pl.id }}:checked ~ #plp-{{ pl.id }} { display: block; }
 #pl-{{ pl.id }}:checked ~ .pl-tabbar label[for="pl-{{ pl.id }}"] {
@@ -170,7 +170,7 @@ classes: wide
 </div>
 
 <div class="mv-panel" id="panel-playlist">
-{% assign pls = site.data.playlists | sort: "id" | reverse %}
+{% assign pls = site.data.playlists | sort: "id" %}
 {% if pls == nil or pls.size == 0 %}<p class="pl-empty">플레이리스트를 준비 중입니다.</p>
 {% else %}{% for pl in pls %}<input type="radio" name="pl-view" id="pl-{{ pl.id }}" class="pl-radio"{% if forloop.first %} checked{% endif %}>
 {% endfor %}<div class="pl-tabbar">
