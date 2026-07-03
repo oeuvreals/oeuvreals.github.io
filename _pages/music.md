@@ -178,7 +178,7 @@ classes: wide
 {% endfor %}</div>
 {% for pl in pls %}<section class="pl-panel" id="plp-{{ pl.id }}">
 <div class="pl-head"><span class="pl-date">{{ pl.date }}</span>{% if pl.title %}<span class="pl-title">{{ pl.title }}</span>{% endif %}</div>
-{% if pl.spotify %}{% assign embed = pl.spotify | replace: 'open.spotify.com/', 'open.spotify.com/embed/' %}<iframe class="pl-embed" src="{{ embed }}" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
+{% if pl.spotify %}{% assign embed = pl.spotify | replace: 'open.spotify.com/', 'open.spotify.com/embed/' %}<iframe class="pl-embed" src="{{ embed }}" height="420" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
 {% endif %}<div class="pl-tracks">
 {% for t in pl.tracks %}<figure class="album"><img class="album__cover" src="{{ t.cover }}" alt="{{ t.title }}" loading="lazy"><span class="album__title">{{ t.title }}</span><span class="album__artist">{{ t.artist }}</span></figure>
 {% endfor %}</div>
