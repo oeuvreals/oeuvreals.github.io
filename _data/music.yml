@@ -15,198 +15,249 @@
     - cover: /assets/images/albums/live-fast-die-skrt.jpg
       title: "LIVE FAST DIE SKRT"
       artist: "Bill Stax"
+      spotify: "https://open.spotify.com/album/1MjbVCreOaE7j2f9gQG1dR"
     - cover: /assets/images/albums/MAINSTREAM.webp
       title: "MAINSTREAM"
       artist: "Kid Milli, OKASHII"
+      spotify: "https://open.spotify.com/album/1oE3vYi9tPtKDTXwj9juFF"
 
 - year: 2025
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/fd/a3/13fda38d-fc63-ddc3-1cf2-c09251adc532/25UMGIM09489.rgb.jpg/600x600bb.jpg
       title: "Hurry Up Tomorrow"
       artist: "The Weeknd"
+      spotify: "https://open.spotify.com/album/3OxfaVgvTxUTy7276t7SPU"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/c3/e0/2cc3e03a-65b3-c525-bccb-6d616f228571/cover_KM0021355_1.png/600x600bb.jpg
       title: "NONG"
       artist: "shinjihang"
+      spotify: "https://open.spotify.com/album/74bLGgJrmcRuBUUTHvr4UM"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/2b/93/9e2b93b7-43a9-e814-e0ae-c55a1b7e17d6/196873463513.jpg/600x600bb.jpg
       title: "DON'T TAP THE GLASS"
       artist: "Tyler, The Creator"
+      spotify: "https://open.spotify.com/album/1jzv3jwZbt8lYfEtMjiD1R"
     - cover: /assets/images/albums/Homixide_Lifestyle_2.jpg
       title: "Homixide Lifestyle 2"
       artist: "HXG"
+      spotify: "https://open.spotify.com/album/3KABOXbguDvh6dnsbjVQVk"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/0b/d3/b00bd346-7b14-da61-28b0-94d2ea03f58e/093624826873.jpg/600x600bb.jpg
       title: "Baby"
       artist: "Dijon"
+      spotify: "https://open.spotify.com/album/3hKlec1wgYVJcI0YvwCFJB"
 
 - year: 2024
   albums:
     - cover: /assets/images/albums/GEORGE.jpg
       title: "GEORGE"
       artist: "1300"
+      spotify: "https://open.spotify.com/album/5YYgmFU4aVssLNV0ISnZuv"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/e3/6c/8fe36c7a-d280-2d0e-8e67-4ee0fd4523cd/810090095448.png/600x600bb.jpg
       title: "Imaginal Disk"
       artist: "Magdalena Bay"
+      spotify: "https://open.spotify.com/album/2Htq1sHgmdGffojIBM6Q1s"
     - cover: /assets/images/albums/life's_a_gamble.jpg
       title: "Life's A Gamble"
       artist: "Rich The Kid"
+      spotify: "https://open.spotify.com/album/15AoGBtbEGAMeETKgazXMM"
     - cover: /assets/images/albums/King_Of_The_Mischievous_South_Vol.2.jpg
       title: "King Of The Mischievous South Vol. 2"
       artist: "Denzel Curry"
+      spotify: "https://open.spotify.com/album/6LoDd1G8en4TcqdSg7yqrV"
     - cover: /assets/images/albums/BRAT.jpg
       title: "BRAT"
       artist: "Charli xcx"
+      spotify: "https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7"
 
 - year: 2023
   albums:
     - cover: /assets/images/albums/Drive_Home.jpg
       title: "Drive Home"
       artist: "Portraits Of Tracy"
+      spotify: "https://open.spotify.com/album/4ltslrBIPDsUlnRSbrQFTR"
     - cover: /assets/images/albums/NOWITZKI.jpg
       title: "NOWITZKI"
       artist: "Beenzino"
+      spotify: "https://open.spotify.com/album/2ZcI7Sbm7s2yz8l8wvIyUq"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/45/9a/9b/459a9b03-22bc-be26-3b8b-1a98ac64eac6/ZT_Zip_COVER.jpg/600x600bb.jpg
       title: "Zip"
       artist: "Zion.T"
+      spotify: "https://open.spotify.com/album/0T3dxtCegtw8C07ZMvwIfv"
 
 - year: 2022
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/77/f5/14/77f51484-6d0e-55a5-a538-bf1066080652/196922226595_Cover.jpg/600x600bb.jpg
       title: "some hearts are for two"
       artist: "Qim Isle"
+      spotify: "https://open.spotify.com/album/2CbFjix62Fkbttw4aBNFoY"
     - cover: /assets/images/albums/www.instagram.com_rollingloud_viceversartist.jpg
       title: "www.instagram.com/rollingloud/viceversartist"
       artist: "viceversa"
+      spotify: "https://open.spotify.com/album/65iSrqbqW6EmtC9FeqdEfr"
 
 - year: 2021
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/a7/f9/cfa7f9be-2d62-89a4-19bf-26276ab39f16/21UMGIM64738.rgb.jpg/600x600bb.jpg
       title: "Donda"
       artist: "Kanye West"
+      spotify: "https://open.spotify.com/album/5CnpZV3q5BcESefcB3WJmz"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/67/1b/84671b2c-f97f-5280-0b73-383bcc8e4f29/Parannoul_ToSeeTheNextPartOfTheDream_3000.jpg/600x600bb.jpg
       title: "To See the Next Part of the Dream"
       artist: "Parannoul"
+      spotify: "https://open.spotify.com/album/5IyHtkKQvafw7bQYFnx4FO"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/33/dc/c533dc8e-2baa-94f9-22be-e6e28945f932/075679754134.jpg/600x600bb.jpg
       title: "An Evening With Silk Sonic"
       artist: "Silk Sonic"
+      spotify: "https://open.spotify.com/album/1YgekJJTEueWDaMr7BYqPk"
 
 - year: 2020
   albums:
     - cover: /assets/images/albums/circles.jpg
       title: "Circles"
       artist: "Mac Miller"
+      spotify: "https://open.spotify.com/album/5sY6UIQ32GqwMLAfSNEaXb"
     - cover: /assets/images/albums/DETOX.jpg
       title: "DETOX"
       artist: "Bill Stax"
+      spotify: "https://open.spotify.com/album/7d2sa6rToC6MkSTxAkkrWk"
     - cover: /assets/images/albums/FREE_THE_BEAST.jpg
       title: "FREE THE BEAST"
       artist: "B-FREE"
+      spotify: "https://open.spotify.com/album/0bfqzswYir79oZGuGLRYFQ"
     - cover: /assets/images/albums/Whole_Lotta_Red.png
       title: "Whole Lotta Red"
       artist: "Playboi Carti"
+      spotify: "https://open.spotify.com/album/2QRedhP5RmKJiJ1i8VgDGR"
     - cover: /assets/images/albums/Father_EP.jpg
       title: "Father EP"
       artist: "Masta Wu"
+      spotify: "https://open.spotify.com/album/4E4L5zlGhO7jaWQck9JmPE"
 
 - year: 2019
   albums:
     - cover: /assets/images/albums/킁.jpg
       title: "킁"
       artist: "C JAMM"
+      spotify: "https://open.spotify.com/album/27DBdAQYbalG0di7blGfDc"
     - cover: /assets/images/albums/Apollo_XXI.jpg
       title: "Apollo XXI"
       artist: "Steve Lacy"
+      spotify: "https://open.spotify.com/album/4hvsfS6cytmO16IfAptVA9"
     - cover: /assets/images/albums/FREE_FROM_HELL.jpg
       title: "FREE FROM HELL"
       artist: "B-FREE"
+      spotify: "https://open.spotify.com/album/0WvHDAMt5g9QEsNcWvkxHh"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/13/27/6c13279a-399b-2631-3cb2-6233a91d7a53/19UMGIM78325.rgb.jpg/600x600bb.jpg
       title: "Hollywood's Bleeding"
       artist: "Post Malone"
+      spotify: "https://open.spotify.com/album/4g1ZRSobMefqF6nelkgibi"
 
 - year: 2018
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/ef/dd/81efddef-ecb3-bb5b-f82b-10cf0587002a/18UMGIM27193.rgb.jpg/600x600bb.jpg
       title: "DAYTONA"
       artist: "Pusha T"
+      spotify: "https://open.spotify.com/album/07bIdDDe3I3hhWpxU6tuBp"
     - cover: /assets/images/albums/무너지기.jpg
       title: "무너지기"
       artist: "공중도둑"
+      spotify: "https://open.spotify.com/album/4iLo2HykYzbHw6MWSTg4vp"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/4d/80/0f4d80d8-8d87-75a9-46aa-83bab19b3204/5034644606743.jpg/600x600bb.jpg
       title: "MacGyver"
       artist: "B-FREE"
+      spotify: "https://open.spotify.com/album/4HzZIstabct8A7pYghWe9R"
     - cover: /assets/images/albums/AI,_THE_PLAYLIST.jpg
       title: "AI, THE PLAYLIST"
       artist: "Kid Milli"
+      spotify: "https://open.spotify.com/album/1xXf2zt343YP9oC6CAkbMR"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f8/92/62/f892628e-bfd5-2437-c1f5-0ebbd366de09/00602577303098.rgb.jpg/600x600bb.jpg
       title: "ye"
       artist: "Kanye West"
+      spotify: "https://open.spotify.com/album/2Ek1q2haOnxVqhvVKqMvJe"
 
 - year: 2017
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/83/6b/40/836b4093-0e77-2121-21b7-42765bc1a9f1/80928575.jpg/600x600bb.jpg
       title: "boy."
       artist: "offonoff"
+      spotify: "https://open.spotify.com/album/4crHesv3PHfci2PBJ6m9sj"
     - cover: /assets/images/albums/Playboi_Carti.jpg
       title: "Playboi Carti"
       artist: "Playboi Carti"
+      spotify: "https://open.spotify.com/album/4rJgzzfFHAVFhCSt2P4I3j"
 
 - year: 2016
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/f2/5d/b7f25d91-4320-47c8-146a-6f84d5bc7e78/cover.jpg/600x600bb.jpg
       title: "A Moon Shaped Pool"
       artist: "Radiohead"
+      spotify: "https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg"
     - cover: /assets/images/albums/JEFFERY.jpg
       title: "JEFFERY"
       artist: "Young Thug"
+      spotify: "https://open.spotify.com/album/7EpUpNUkkEGnaCvkcn1j4H"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1e/3a/4b/1e3a4b1a-1cc7-0f3c-d578-410bd673484a/886446189055.jpg/600x600bb.jpg
       title: "Cozy Tapes: Vol. 1 Friends"
       artist: "A$AP Mob"
+      spotify: "https://open.spotify.com/album/3RaACfwYTY9uiDy3VSWLLc"
     - cover: /assets/images/albums/KYOMI.png
       title: "KYOMI"
       artist: "XXX"
+      spotify: "https://open.spotify.com/album/68To0i66fYxVRRqf7fAh4i"
     - cover: /assets/images/albums/녹색이념.jpg
       title: "녹색이념"
       artist: "테이크원"
+      spotify: "https://open.spotify.com/album/2mFfxZsrfqyxTtzUwZy2fr"
 
 - year: 2015
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/ee/f3/42/eef342b0-6024-1bb3-15db-426aa5ee1eb8/kw_1400.jpg/600x600bb.jpg
       title: "The Epic"
       artist: "Kamasi Washington"
+      spotify: "https://open.spotify.com/album/2j2q2ySuVk43eHB8wI5XQj"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/9b/4c/9f9b4cbc-5910-51fb-8486-adf3b89bc973/886444594837.jpg/600x600bb.jpg
       title: "AT.LONG.LAST.A$AP"
       artist: "A$AP Rocky"
+      spotify: "https://open.spotify.com/album/3arNdjotCvtiiLFfjKngMc"
     - cover: /assets/images/albums/The_Anecdote.jpg
       title: "The Anecdote"
       artist: "E SENS"
+      spotify: "https://open.spotify.com/album/2C6c7NXZwrSOqCNzrfNI4Q"
 
 - year: 2014
   albums:
     - cover: /assets/images/albums/장범준_1집.png
       title: "장범준 1집"
       artist: "장범준"
+      spotify: "https://open.spotify.com/album/2rjSn23EPYao5qmVCScn4U"
 
 - year: 2013
   albums:
     - cover: /assets/images/albums/Yeezus.jpg
       title: "Yeezus"
       artist: "Kanye West"
+      spotify: "https://open.spotify.com/album/7D2NdGvBHIavgLhmcwhluK"
 
 - year: 2012
   albums:
     - cover: /assets/images/albums/The_Money_Store.jpg
       title: "The Money Store"
       artist: "Death Grips"
+      spotify: "https://open.spotify.com/album/1PQDjdBpHPikAodJqjzm6a"
     - cover: /assets/images/albums/One_of_a_Kind.jpg
       title: "One of a Kind"
       artist: "G-DRAGON"
+      spotify: "https://open.spotify.com/album/4EitCfNTOlnqtRrmBBuwGQ"
     - cover: /assets/images/albums/24_26.jpg
       title: "2 4 : 2 6"
       artist: "Beenzino"
+      spotify: "https://open.spotify.com/album/7eaR08LzRS8EOKXBWMzaqV"
     - cover: /assets/images/albums/channel_ORANGE.png
       title: "channel ORANGE"
       artist: "Frank Ocean"
+      spotify: "https://open.spotify.com/album/392p3shh2jkxUxY2VHvlH8"
     - cover: /assets/images/albums/Primary_And_The_Messengers_LP.jpg
       title: "Primary And The Messengers LP"
       artist: "프라이머리"
+      spotify: "https://open.spotify.com/album/20MnU7TMGi4OEPkPZjZxYA"
 
 - year: 2011
   albums: []
@@ -216,6 +267,7 @@
     - cover: /assets/images/albums/Lifes_Like.jpg
       title: "Lifes Like"
       artist: "재지팩트"
+      spotify: "https://open.spotify.com/album/3TKU5BGCpwhYnjJlbS9fyI"
 
 - year: 2009
   albums: []
@@ -225,48 +277,58 @@
     - cover: /assets/images/albums/monologue.jpg
       title: "Monologue"
       artist: "김동률"
+      spotify: "https://open.spotify.com/album/2vdtU1KZ2owCBxjBC5WebE"
 
 - year: 2007
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/50/c7/dd50c790-99ac-d3d0-5ab8-e3891fb8fd52/634904032463.png/600x600bb.jpg
       title: "In Rainbows"
       artist: "Radiohead"
+      spotify: "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK"
     - cover: /assets/images/albums/Mass_Wu_Pt.%202.jpg
       title: "Mass Wu Pt. 2"
       artist: "Masta Wu"
+      spotify: "https://open.spotify.com/album/3FamLEhvafvWolNyFnNqLe"
 
 - year: 2006
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/d3/c5/63d3c537-ac30-86e7-8e69-8a03a5346209/792.jpg/600x600bb.jpg
       title: "Donuts"
       artist: "J Dilla"
+      spotify: "https://open.spotify.com/album/5fMlysqhFE0itGn4KezMBW"
 
 - year: 2005
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/90/3c/0e903c43-9d81-f91b-90f1-727a58f7fb2c/00602498824030.rgb.jpg/600x600bb.jpg
       title: "Late Registration"
       artist: "Kanye West"
+      spotify: "https://open.spotify.com/album/5ll74bqtkcXlKE7wwkMq4g"
 
 - year: 2004
   albums:
     - cover: /assets/images/albums/The_Unseen.jpg
       title: "The Unseen"
       artist: "Quasimoto"
+      spotify: "https://open.spotify.com/album/0dCxrv92J8gKDh4zObd2ZZ"
     - cover: /assets/images/albums/Madvillainy.jpg
       title: "Madvillainy"
       artist: "Madvillain"
+      spotify: "https://open.spotify.com/album/19bQiwEKhXUBJWY6oV3KZk"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/05/09/15050911-a2f1-9ebc-0d16-6e8faad1cf80/00602567924326.rgb.jpg/600x600bb.jpg
       title: "The College Dropout"
       artist: "Kanye West"
+      spotify: "https://open.spotify.com/album/4Uv86qWpGTxf7fU7lG5X6F"
 
 - year: 2003
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fb/56/f7/fb56f7cb-967f-09f3-ebbe-311f84ea02e0/888003017191.jpg/600x600bb.jpg
       title: "Vaudeville Villain"
       artist: "Viktor Vaughn"
+      spotify: "https://open.spotify.com/album/7HPjcPD2cr8E5oHvVAmBp7"
     - cover: /assets/images/albums/1집_Masta_Peace.jpg
       title: "1집 Masta Peace"
       artist: "Masta Wu"
+      spotify: "https://open.spotify.com/album/0ibzWl8XnwGF1fEUs3q9sb"
 
 - year: 2002
   albums: []
@@ -276,27 +338,32 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/7f/bc/407fbccc-1361-4425-972b-0d60018a752f/mzi.vbkjoksk.jpg/600x600bb.jpg
       title: "Drukqs"
       artist: "Aphex Twin"
+      spotify: "https://open.spotify.com/album/2oJo7cB45gMVuRsaWNwDq2"
 
 - year: 2000
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/8e/13/bd8e1358-b367-a689-cb84-cebd0b067dc4/634904078263.png/600x600bb.jpg
       title: "Kid A"
       artist: "Radiohead"
+      spotify: "https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7"
 
 - year: 1999
   albums:
     - cover: /assets/images/albums/2001.png
       title: "2001"
       artist: "Dr. Dre"
+      spotify: "https://open.spotify.com/album/7q2B4M5EiBkqrlsNW8lB7N"
 
 - year: 1998
   albums:
     - cover: /assets/images/albums/music_has_the_right_to_children.jpg
       title: "Music Has The Right To Children"
       artist: "Boards of Canada"
+      spotify: "https://open.spotify.com/album/6LZiNXaDvhzvnXUubVOmNU"
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/09/6b/55/096b55c4-ee8f-23bd-df8f-0ca0821f3028/886446727189.jpg/600x600bb.jpg
       title: "The Miseducation of Lauryn Hill"
       artist: "Ms. Lauryn Hill"
+      spotify: "https://open.spotify.com/album/1BZoqf8Zje5nGdwZhOjAtD"
 
 - year: 1997
   albums: []
@@ -306,24 +373,29 @@
     - cover: /assets/images/albums/Exhibition_2.jpg
       title: "Exhibition 2"
       artist: "전람회"
+      spotify: "https://open.spotify.com/album/0U916uzyklE8bn8hMlrX3t"
 
 - year: 1995
   albums:
     - cover: /assets/images/albums/The_Infamous.jpg
       title: "The Infamous"
       artist: "Mobb Deep"
+      spotify: "https://open.spotify.com/album/1cCAb1vN8uUsdfEylVmTLs"
     - cover: /assets/images/albums/Mystic_Stylez.jpg
       title: "Mystic Stylez"
       artist: "Three 6 Mafia"
+      spotify: "https://open.spotify.com/album/03dao4rkv9ZZ95IJrnugVM"
 
 - year: 1994
   albums:
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/600x600bb.jpg
       title: "Illmatic"
       artist: "Nas"
+      spotify: "https://open.spotify.com/album/3kEtdS2pH6hKcMU9Wioob1"
     - cover: /assets/images/albums/오래된_친구.jpg
       title: "오래된 친구"
       artist: "빛과 소금"
+      spotify: "https://open.spotify.com/album/3DAfwzhPUXRMdqqBUwdZp7"
 
 - year: 1993
   albums: []
@@ -336,9 +408,11 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/6b/9a/866b9a0d-bcfb-0356-a539-a90036412f1b/cover_KM0021144_1.jpg/600x600bb.jpg
       title: "김현식 Vol.6"
       artist: "김현식"
+      spotify: "https://open.spotify.com/album/0D6Nimd69vVUUfksIKBJ08"
     - cover: /assets/images/albums/내곁에서_떠나가지_말아요.webp
       title: "내곁에서 떠나가지 말아요"
       artist: "빛과 소금"
+      spotify: "https://open.spotify.com/album/05uHZMmnBAGcnCz9nLpWiR"
 
 - year: 1990
   albums: []
@@ -348,27 +422,32 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/06/a5/5c06a5fc-6424-25e4-37c4-da5a9a18dd8a/00602547592378.rgb.jpg/600x600bb.jpg
       title: "Rhythm Nation 1814"
       artist: "Janet Jackson"
+      spotify: "https://open.spotify.com/album/7jtBAkD6DL5yn7komrFTxE"
     - cover: /assets/images/albums/Paul's_Boutique.webp
       title: "Paul's Boutique"
       artist: "Beastie Boys"
+      spotify: "https://open.spotify.com/album/1kmyirVya5fRxdjsPFDM05"
 
 - year: 1988
   albums:
     - cover: /assets/images/albums/김현식_Vol.4.webp
       title: "김현식 Vol.4"
       artist: "김현식"
+      spotify: "https://open.spotify.com/album/0rvVmPkItSeYfiMLtJmlCH"
 
 - year: 1987
   albums:
     - cover: /assets/images/albums/사랑하기_때문에.jpg
       title: "사랑하기 때문에"
       artist: "유재하"
+      spotify: "https://open.spotify.com/album/2Kb78rmvg0suvhVPcjBtlm"
 
 - year: 1986
   albums:
     - cover: /assets/images/albums/김현식_III.jpg
       title: "김현식 III"
       artist: "김현식"
+      spotify: "https://open.spotify.com/album/6hLb90wBBAeEQnrS1MgcMG"
 
 - year: 1985
   albums: []
@@ -381,9 +460,11 @@
     - cover: https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/99/3b/d1/993bd1fa-13ab-7898-6993-bc4da32be961/00724356364752.rgb.jpg/600x600bb.jpg
       title: "Apollo"
       artist: "Brian Eno"
+      spotify: "https://open.spotify.com/album/1Z2jkEtW5Sc9wWVxUgyG0E"
 
 - year: 1971
   albums:
     - cover: /assets/images/albums/Bryter_Layter.jpg
       title: "Bryter Layter"
       artist: "Nick Drake"
+      spotify: "https://open.spotify.com/album/0B2E1w5T7PEbZIctZnnt9K"

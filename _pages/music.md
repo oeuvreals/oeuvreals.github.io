@@ -144,6 +144,52 @@ permalink: /music/
   overflow-wrap: anywhere;
   word-break: break-word;
 }
+
+/* ===== 앨범 클릭 → Spotify 임베드 모달 (순수 CSS :target) ===== */
+.album__open { display: block; cursor: pointer; }
+.album-modal { display: none; }
+.album-modal:target {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.album-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.66);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.album-modal__box {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 460px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.4rem 1.25rem 1.1rem;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+  animation: fadeIn 0.22s ease;
+}
+.album-modal__close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.8rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--fg-dim);
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+.album-modal__close:hover { color: var(--fg); }
+.album-modal__title { font: 500 1.05rem var(--disp); color: var(--fg); padding-right: 1.5rem; }
+.album-modal__artist { font-size: 0.8rem; color: var(--fg-dim); margin: 0.15rem 0 1rem; }
+.album-embed { border: 0; border-radius: 12px; width: 100%; display: block; }
 </style>
 
 <div class="music-tabs">
@@ -160,11 +206,20 @@ permalink: /music/
 {% for entry in years %}<section class="music-year">
 <h2 class="music-year__label">{{ entry.year }}</h2>
 <div class="music-row">
-{% for album in entry.albums %}<figure class="album"><img class="album__cover" src="{{ album.cover }}" alt="{{ album.title }}" loading="lazy"><span class="album__title">{{ album.title }}</span><span class="album__artist">{{ album.artist }}</span></figure>
+{% for album in entry.albums %}{% assign aid = entry.year | append: '-' | append: forloop.index0 %}<figure class="album">{% if album.spotify %}<a class="album__open" href="#am-{{ aid }}"><img class="album__cover" src="{{ album.cover }}" alt="{{ album.title }}" loading="lazy"></a>{% else %}<img class="album__cover" src="{{ album.cover }}" alt="{{ album.title }}" loading="lazy">{% endif %}<span class="album__title">{{ album.title }}</span><span class="album__artist">{{ album.artist }}</span></figure>
 {% endfor %}</div>
 </section>
 {% endfor %}</div>
+{% for entry in years %}{% for album in entry.albums %}{% if album.spotify %}{% assign aid = entry.year | append: '-' | append: forloop.index0 %}{% assign embed = album.spotify | replace: 'open.spotify.com/', 'open.spotify.com/embed/' %}<div class="album-modal" id="am-{{ aid }}">
+<a class="album-modal__backdrop" href="#!" aria-label="닫기"></a>
+<div class="album-modal__box">
+<a class="album-modal__close" href="#!" aria-label="닫기">&times;</a>
+<div class="album-modal__title">{{ album.title }}</div>
+<div class="album-modal__artist">{{ album.artist }}</div>
+<iframe class="album-embed" src="{{ embed }}" height="380" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
 </div>
+</div>
+{% endif %}{% endfor %}{% endfor %}</div>
 
 <div class="mv-panel" id="panel-playlist">
 {% assign pls = site.data.playlists | sort: "id" %}
