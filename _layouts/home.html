@@ -7,7 +7,7 @@ layout: default
     <img src="{{ page.avatar | default: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
   </div>
   {% else %}
-  <div class="ph profile__photo">PROFILE PHOTO</div>
+  <div class="profile__photo profile__photo--blank"></div>
   {% endif %}
 
   <div class="profile__body">
