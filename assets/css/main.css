@@ -203,6 +203,11 @@ html { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
   display: block;
 }
 
+.profile__photo--blank {
+  background: #ffffff;
+}
+
+
 .profile__body {
   display: flex;
   flex-direction: column;
