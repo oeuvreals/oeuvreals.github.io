@@ -377,3 +377,108 @@ html { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
   .entry-card { grid-template-columns: 1fr; }
   .entry-card__thumb { height: 160px; }
 }
+
+/* ----- profile: cornerstones conveyor belt (marquee) ----- */
+
+.belt-section { margin-top: 72px; }
+
+.belt-head {
+  font: 500 .72rem var(--mono);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+.belt {
+  overflow: hidden;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+}
+
+.belt__track {
+  display: flex;
+  width: max-content;
+  animation: beltScroll 140s linear infinite;
+  will-change: transform;
+}
+
+/* 마우스 올리면 정지 */
+.belt:hover .belt__track { animation-play-state: paused; }
+
+.belt__item {
+  flex: 0 0 auto;
+  width: 118px;
+  height: 118px;
+  margin-right: 16px;   /* 고정 폭+마진 → 이음새 없는 무한 루프 계산 보장 */
+  border-radius: 8px;
+  overflow: hidden;
+  display: block;
+  background: rgba(255,255,255,.04);
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  transition: transform .3s cubic-bezier(.2,.7,.2,1), box-shadow .3s ease;
+}
+
+.belt__item:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 14px 30px rgba(0,0,0,.5);
+}
+
+.belt__cover { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+@keyframes beltScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .belt__track { animation: none; }
+  .belt { overflow-x: auto; }
+}
+
+/* ----- 앨범 클릭 → Spotify 임베드 모달 (홈에서도 사용, 순수 CSS :target) ----- */
+
+.album-modal { display: none; }
+.album-modal:target {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.album-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.66);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.album-modal__box {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 460px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.4rem 1.25rem 1.1rem;
+  box-shadow: 0 24px 60px rgba(0,0,0,.55);
+  animation: fadeIn .22s ease;
+}
+.album-modal__close {
+  position: absolute;
+  top: .5rem;
+  right: .8rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--fg-dim);
+  text-decoration: none;
+  transition: color .18s ease;
+}
+.album-modal__close:hover { color: var(--fg); }
+.album-modal__title { font: 500 1.05rem var(--disp); color: var(--fg); padding-right: 1.5rem; }
+.album-modal__artist { font-size: .8rem; color: var(--fg-dim); margin: .15rem 0 1rem; }
+.album-embed { border: 0; border-radius: 12px; width: 100%; display: block; }

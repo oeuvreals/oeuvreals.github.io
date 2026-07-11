@@ -18,3 +18,63 @@ layout: default
     {{ content }}
   </div>
 </section>
+
+{%- comment -%}
+  Cornerstones 무한 컨베이어 벨트.
+  - 모든 앨범 커버가 가로로 무한히 흐름(마우스 올리면 정지).
+  - 커버 클릭 → Music 탭 Cornerstones 와 동일한 Spotify 임베드 모달(#am-...).
+  - 순서는 정적 빌드라 서버에서 못 섞으므로, 아래 스크립트가 로드 시 매번 무작위로 셔플.
+{%- endcomment -%}
+{% assign years = site.data.music | sort: "year" | reverse %}
+<section class="belt-section">
+  <div class="belt-head">Cornerstones</div>
+  <div class="belt" id="cornerstoneBelt">
+    <div class="belt__track">
+      {%- for entry in years -%}{%- for album in entry.albums -%}{%- if album.spotify -%}{%- assign aid = entry.year | append: '-' | append: forloop.index0 -%}
+      <a class="belt__item" href="#am-{{ aid }}" data-belt-item title="{{ album.title }} — {{ album.artist }}"><img class="belt__cover" src="{{ album.cover }}" alt="{{ album.title }}" loading="lazy"></a>
+      {%- endif -%}{%- endfor -%}{%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{%- for entry in years -%}{%- for album in entry.albums -%}{%- if album.spotify -%}{%- assign aid = entry.year | append: '-' | append: forloop.index0 -%}{%- assign embed = album.spotify | replace: 'open.spotify.com/', 'open.spotify.com/embed/' -%}
+<div class="album-modal" id="am-{{ aid }}">
+  <a class="album-modal__backdrop" href="#!" aria-label="닫기"></a>
+  <div class="album-modal__box">
+    <a class="album-modal__close" href="#!" aria-label="닫기">&times;</a>
+    <div class="album-modal__title">{{ album.title }}</div>
+    <div class="album-modal__artist">{{ album.artist }}</div>
+    <iframe class="album-embed" src="{{ embed }}" height="380" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
+  </div>
+</div>
+{%- endif -%}{%- endfor -%}{%- endfor -%}
+
+<script>
+(function () {
+  var belt = document.getElementById('cornerstoneBelt');
+  if (!belt) return;
+  var track = belt.querySelector('.belt__track');
+  var items = Array.prototype.slice.call(track.querySelectorAll('[data-belt-item]'));
+  if (!items.length) return;
+
+  // 1) 매 로드마다 무작위 순서 (Fisher–Yates)
+  for (var i = items.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = items[i]; items[i] = items[j]; items[j] = tmp;
+  }
+  items.forEach(function (el) { track.appendChild(el); });
+
+  // 2) 이음새 없는 무한 루프용으로 한 벌 복제(-50% 이동과 짝을 맞춤)
+  items.forEach(function (el) {
+    var c = el.cloneNode(true);
+    c.setAttribute('aria-hidden', 'true');
+    c.removeAttribute('data-belt-item');
+    c.removeAttribute('href');            // 복제본은 클릭 대상에서 제외(중복 방지)
+    track.appendChild(c);
+  });
+
+  // 3) 개수와 무관하게 일정한 속도(초/아이템)로 지속시간 계산
+  var SEC_PER_ITEM = 1.7;
+  track.style.animationDuration = (items.length * SEC_PER_ITEM) + 's';
+})();
+</script>
