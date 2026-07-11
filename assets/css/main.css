@@ -400,7 +400,7 @@ html { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
 .belt__track {
   display: flex;
   width: max-content;
-  animation: beltScroll 233s linear infinite;
+  animation: beltScroll 291s linear infinite;
   will-change: transform;
 }
 
