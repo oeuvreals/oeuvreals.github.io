@@ -400,17 +400,14 @@ html { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
 .belt__track {
   display: flex;
   width: max-content;
-  animation: beltScroll 140s linear infinite;
+  animation: beltScroll 233s linear infinite;
   will-change: transform;
 }
 
-/* 마우스 올리면 정지 */
-.belt:hover .belt__track { animation-play-state: paused; }
-
 .belt__item {
   flex: 0 0 auto;
-  width: 118px;
-  height: 118px;
+  width: 153px;
+  height: 153px;
   margin-right: 16px;   /* 고정 폭+마진 → 이음새 없는 무한 루프 계산 보장 */
   border-radius: 8px;
   overflow: hidden;
